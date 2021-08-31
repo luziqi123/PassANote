@@ -1,2 +1,4 @@
+include ':Jhttp'
+include ':SimpleUtils'
 include ':app'
 rootProject.name = "PassANote"
