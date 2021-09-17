@@ -1,6 +1,10 @@
 package com.longface.simpleutils;
 
+import android.app.Application;
+
 public class Constants {
+
+    public static Application application;
 
     // Logger
     public static String Logger_TAG = "InterceptLog";

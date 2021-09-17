@@ -45,6 +45,9 @@ public class Logger {
         Log.i(Logger_TAG, s);
     }
 
+    public static void print(String tag , String msg) {
+        Log.i(tag, msg);
+    }
 
 
     public static String toJsonFormat(String msg) {

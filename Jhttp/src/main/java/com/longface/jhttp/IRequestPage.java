@@ -4,6 +4,26 @@ import android.util.Pair;
 
 import java.util.ArrayList;
 
+/**
+ * 请求页面
+ *
+ * 同一个App里需要访问多套服务器
+ *
+ *
+ * 分组
+ * 名称
+ *
+ * 请求方式
+ * URL
+ * UrlParams
+ * Aut
+ * Header
+ * Body
+ * Body-Type(4)
+ *
+ *
+ *
+ */
 public interface IRequestPage {
 
     /**
