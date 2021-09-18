@@ -7,12 +7,16 @@ import java.util.ArrayList;
 /**
  * 请求页面
  *
+ * 有哪些情况 ??
  * 同一个App里需要访问多套服务器
  *
+ * 什么会变 ??
+ * 后台接口发生本质性变化 , 例如所有接口的参数类型由form-data变为raw-json
+ * 数据结构 , 统一处理的地方需要变化
  *
- * 分组
+ * 都有哪些元素 ??
+ * 可分组
  * 名称
- *
  * 请求方式
  * URL
  * UrlParams
@@ -20,6 +24,7 @@ import java.util.ArrayList;
  * Header
  * Body
  * Body-Type(4)
+ * 返回数据
  *
  *
  *
