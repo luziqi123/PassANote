@@ -1,4 +1,5 @@
-include ':Jhttp'
+include ':HttpMonster'
+include ':SimpleCalendar'
 include ':SimpleUtils'
 include ':app'
 rootProject.name = "PassANote"

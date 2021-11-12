@@ -51,6 +51,7 @@ public class PhoneSettings {
     public void goSetting(String packageName) {
         if (settingsIndex >= settings.length) {
             Toaster.showLong("设置页跳转失败");
+            settingsIndex = 0;
             return;
         }
         try {
